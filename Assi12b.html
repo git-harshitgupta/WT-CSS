@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+	<style>
+			
+		h3{
+			
+			padding-left: 29px;
+			padding-top: 11px;
+			margin: -3px;
+		}
+		a{
+			color:#939700
+		}
+		table{
+			padding-left: 17px;
+		}
+		hr{
+			width: 381px;
+			color: green;
+		}
+		#button{
+			width: 102px;
+			background-color: green;
+			box-shadow: inset 1px 1px 8px white;
+		}
+		#parent{
+			background-color:#F0F0F0;
+			width: 427px;
+			border-radius: 7px;
+			box-shadow: 0px 0px 13px green;
+		}
+		#child{
+			
+		}
+		#or{
+			text-align: center;
+			font-size: 12px;
+		}
+		.radiusBorder{
+			border-radius: 8px;
+			padding: 4px;
+			margin: 4px;
+			width: 220px;
+		}
+		.alignRight
+		{
+			text-align:right;
+		}
+		
+	</style>
+	</head>
+	
+	<body> 	
+		<div id="parent">
+		<form>
+			<h3>Create an Account</h3>
+			<hr>
+			<div id="child">
+			<table>
+			
+				<tr><td class="alignRight">Name</td><td><input type="text" placeholder="Shridhar Deshmukh" class="radiusBorder"></td></tr>
+				<tr><td class="alignRight">Email</td><td><input type="email" placeholder="shridhardeshmukh@xyz.com" class="radiusBorder"></td></tr>
+				<tr><td class="alignRight">Username</td><td><input type="text" placeholder="shree33" class="radiusBorder"></td></tr>
+				<tr><td class="alignRight">Password</td><td><input type="password" class="radiusBorder"></td></tr>
+				<tr><td class="alignRight">Password Again</td><td><input type="password" class="radiusBorder"></td></tr>	
+				<tr><td></td><td><input type="submit" class="radiusBorder" value="Create Account" id="button"></td></tr>	
+				
+			</table>
+			</div>
+				<p id="or">OR</p>
+				<button>Facebook</button><button>Twitter</button>
+		</form>
+		
+		</div>
+		
+	</body>
+
+</html>

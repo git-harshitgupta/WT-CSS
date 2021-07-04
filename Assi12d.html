@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<style>
+		h3{
+			margin-top: 9px;
+			padding-left: 11px;
+		}
+		button{
+			margin-left: 89px;
+			padding: 2px;
+			margin-top: 13px;
+			width: 59px;
+			margin-bottom: 7px;
+			background-color: #88B8C0;
+			border-radius: 9px;
+		}
+		#parent
+		{
+			border: 3px solid #98B3B8;
+			border-radius: 5px;
+			width: 275px;
+			background-color:#F2F7FA;
+			height: 470px;
+		}
+		#child{
+			padding-left: 12px;
+			padding-bottom: 30px;
+		}
+		.textBoxWidth{
+			width:236px;
+			padding: 4px;
+			margin-bottom: 6px;
+		}
+		.red{
+			color:red;
+		}
+		.text{
+			font-size: 9px;
+			font-style: italic;
+		}
+		
+		</style>
+	</head>
+	<body>
+	<div id="parent">
+		<h3>Get in touch</h3>
+		<p class="text">Fill out our super swanky HTML% contact form below to get in touch with us!<br>Please provide as much information as possible for us to help you with your enquiry.</p>	
+		<div id="child">
+			<form>
+			Name:<span class="red">*</span><br>
+			<input type="text" placeholder="name" class="textBoxWidth"><br>
+			Email:<span class="red">*</span><br>
+			<input type="email" class="textBoxWidth"><br>
+			Telephone<br>
+			<input type="number" maxlength=12 class="textBoxWidth"><br>
+			Enquirey<br>
+			<input type="text" class="textBoxWidth"><br>
+			Message:<span class="red">*</span><br>
+			<textarea rows=4 cols=28></textarea><br>
+			</form>
+			<span class="text"><span class="red">*</span>indicates a required field</span><button>Login</button>
+		</div>
+		
+		
+	</div>
+	</body>
+
+</html>
